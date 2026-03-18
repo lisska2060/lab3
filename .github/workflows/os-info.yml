@@ -1,0 +1,11 @@
+name: Show OS Info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-os:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show OS version
+        run: uname -a
