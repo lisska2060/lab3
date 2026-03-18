@@ -9,4 +9,3 @@ jobs:
     steps:
       - name: Show current date
         run: date
--
